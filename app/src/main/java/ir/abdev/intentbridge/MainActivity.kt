@@ -67,7 +67,7 @@ class MainActivity : Activity() {
         }
         
         btnLink.setOnClickListener {
-            val uri = Uri.parse("https://t.me/d8dev")
+            val uri = Uri.parse("https://github.com/4bolfaz1/IntentBridge")
             val intent = Intent(Intent.ACTION_VIEW, uri)
             intent.setPackage(null)
             startActivity(intent)

@@ -35,7 +35,6 @@ class BridgeActivity : Activity() {
         var cls: String? = null
         var act: String? = null
 
-        // دستوردهی بر پایهٔ کلیدهای "c" و "a"
         var i = 0
         while (i < segs.size - 1) {
             when (segs[i]) {
@@ -45,7 +44,7 @@ class BridgeActivity : Activity() {
             i += 2
         }
 
-        // تمام query parameterها → extras
+        // query parameter → extras
         val extras = uri.queryParameterNames.associateWith { uri.getQueryParameter(it)!! }
 
         return TargetInfo(
@@ -62,10 +61,8 @@ class BridgeActivity : Activity() {
             if (info.receiverClass != null) {
                 component = ComponentName(info.packageName, info.receiverClass)
             } else {
-                // implicit broadcast داخل پکیج مقصد
                 setPackage(info.packageName)
             }
-            // همهٔ extras واقعی
             info.extras.forEach { (k, v) -> putExtra(k, v) }
         }
     }
