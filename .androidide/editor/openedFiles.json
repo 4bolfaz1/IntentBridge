@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/IntentBridge/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/IntentBridge/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 23,
+          "index": 732,
+          "line": 28
+        },
+        "start": {
+          "column": 23,
+          "index": 732,
+          "line": 28
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/IntentBridge/app/build.gradle.kts"
+}

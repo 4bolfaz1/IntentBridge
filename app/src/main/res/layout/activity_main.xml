@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/colorBackground"
+    >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Shortcut"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="12dp"
+        />
+
+    <EditText
+        android:id="@+id/etShortcutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shortcut ID"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etShortcutLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shortcut Label"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/etShortcutUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bridge URI (e.g., bridge://...)"
+        android:inputType="textUri"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Shortcut"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Shortcut"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button  
+        android:id="@+id/btnManage"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="Manage Shortcuts"  
+        android:layout_marginTop="24dp" />  
+
+    <Button
+        android:id="@+id/btnLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telegram"
+        android:layout_marginTop="24dp"/>
+
+
+</LinearLayout>
